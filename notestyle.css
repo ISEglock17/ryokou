@@ -213,6 +213,51 @@ em {
 }
 
 
+.train {
+    font-weight: normal;
+    color: black;
+}
+
+.train table td {
+    text-align: center;
+    border: black solid 1px;
+    width: 2em;
+}
+
+.train table th {
+    text-align: center;
+    border: black solid 1px;
+    width: 4em;
+    font-weight: normal;
+    background-color: mintcream;
+}
+
+.train table {
+    background-color: aliceblue;
+    border: black solid 1px;
+    border-collapse: collapse;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.train {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+}
+
+.train-time {
+    margin: 10px;
+}
+
+.train h4 {
+    border: 2px outset forestgreen;
+    background-color: mintcream;
+    padding: 5px;
+    display: block;
+}
+
+
 /***********************************************************************
  * maru kakomi
  **********************************************************************/
